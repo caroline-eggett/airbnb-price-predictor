@@ -1,31 +1,51 @@
-# Notes
+# Airbnb Predictive Analytics
 
-### Introduce the problem your team will develop a machine-learning model to address. Be sure to address the following questions.
+**Goal**: Describe your final machine-learning product and assess its performance in the context of your intended audience. Discuss the inputs to the model and your training process. Evaluate the performance of the model both objectively and according to the perspective of potential users.
 
-- Jonah will write the target audience, decisions, outputs of the model, what type of model.
+### Components:
 
-### Introduce the data the team will use to train your machine-learning model. Provide a descriptive analyses of the data, and interpret the result of each descriptive analysis. Discuss relevant assumptions about the data, including those regarding how the source collected the data. Describe potential costs of collecting the data in practice.
+1. Briefly summarize the purpose of your machine-learning model. The summary should describe the relevant audience and decisions as well as the outputs of the model.
 
-- Caroline and Michael will do the descriptive analytics
-- Relevant Assumptions of the data collection: price was taken at one point in time--it can easily change, data was from a database--there could be users that have never had someone stay in a place, but are still included with the price.
-- Relevant Assumptions of the data: median age is the same across cities in the same state, the price is not changing in 2022 due to inflation, the median income is the same across households
-- Costs in collecting data: median age and income from a Census (cost to survey people), Airbnb data doesn't have a high cost because they have a database
+2. Describe the inputs to the model. What are the instances and features? What are the sources of the data?
 
-### Define the features that your group expects to be most important for model development. Explain how the variables relate to the important aspects of the context (e.g., the variables may be proxies for something that is not observable).
+3. Discuss your training process. What models did you evaluate? How did you approach feature engineering and hyperparameter optimization? What metrics did you use to evaluate models?
 
-- Carter define the features and interpret the results.
+4. Describe your final model. How well does the model perform according to appropriate metrics?
 
-Soft deadline is Wednesday 2/22/22
-Hard deadline is Friday 2/24/22
+5. Evaluate the model through the eyes of your intended audience.
+   – How well does the model solve your audience’s problem?
+   – How legible is the output of the model for your audience?
+   – What might your users think are the strengths and weaknesses
+   of the model?
+   – What additional work would be necessary for creating a viable
+   product?
 
-Paper in Google Drive.
+   _Notes: The paper can only be 10 pages long, Times New Roman, 12pt size font, and double spaced_
 
-- Abstract
-- Descriptive Analytics
-- Interpretation
-  - Appears that the median price is $147.00. We have outliers in the data, therefore we intend to exclude from the feature modeling porportion of the analysis.
-  - The majority of the rooms are entire homes and apartments, with some presence of private rooms as listings.
-  - Hotel Rooms, being the smallest subset group, appear to have the largest average room price.
-  - The top three cities (the cities with the most listings in our data) are NYC, LA, and Hawaii
-  - The average prices of these cities are X, Y, Z
-- Conclusion
+   **Notes:**
+
+   - #1 should have already been done
+   - #2 should have already been done
+   - #3: We mentioned we wanted to do an ensemble method with linear regression (lasso regularization), decision tree, and random forest. We will take the average price for those three models AND then add a 5% increase to the price so that Airbnb would get money, along with adhereing to inflation.
+
+   Final Paper Outline:
+
+   - Abstract
+   - Data Exploration
+     - Graphs we already have
+     - Interpretation we already have
+   - Feature Modeling
+     - Decision Tree visualization?
+     - Linear Regression Metrics in a Table?
+     - Random Forest Visualization?
+     - Answer to question #3
+     - Answers to question #4
+   - Business Understanding
+     - Answers to question #5
+
+   **Action Items:**
+
+   - Caroline:
+   - Michael:
+   - Jonah:
+   - Carter:
