@@ -34,7 +34,7 @@
    - Data Exploration
      - Graphs we already have
      - Interpretation we already have
-   - Feature Modeling
+   - Feature Engineering
      - Decision Tree visualization?
      - Linear Regression Metrics in a Table?
      - Random Forest Visualization?
